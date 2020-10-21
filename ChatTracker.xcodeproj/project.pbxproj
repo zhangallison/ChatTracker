@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CFD7327B253A515F00C7039F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFD7327A253A515F00C7039F /* main.cpp */; };
+		CFD73285253A517C00C7039F /* testChatTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFD73281253A517C00C7039F /* testChatTracker.cpp */; };
+		CFD73286253A517C00C7039F /* generateTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFD73282253A517C00C7039F /* generateTests.cpp */; };
+		CFD73287253A517C00C7039F /* ChatTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFD73284253A517C00C7039F /* ChatTracker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,10 @@
 
 /* Begin PBXFileReference section */
 		CFD73277253A515F00C7039F /* ChatTracker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChatTracker; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD7327A253A515F00C7039F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CFD73281253A517C00C7039F /* testChatTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testChatTracker.cpp; sourceTree = "<group>"; };
+		CFD73282253A517C00C7039F /* generateTests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = generateTests.cpp; sourceTree = "<group>"; };
+		CFD73283253A517C00C7039F /* ChatTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTracker.h; sourceTree = "<group>"; };
+		CFD73284253A517C00C7039F /* ChatTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ChatTracker.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +62,10 @@
 		CFD73279253A515F00C7039F /* ChatTracker */ = {
 			isa = PBXGroup;
 			children = (
-				CFD7327A253A515F00C7039F /* main.cpp */,
+				CFD73284253A517C00C7039F /* ChatTracker.cpp */,
+				CFD73283253A517C00C7039F /* ChatTracker.h */,
+				CFD73282253A517C00C7039F /* generateTests.cpp */,
+				CFD73281253A517C00C7039F /* testChatTracker.cpp */,
 			);
 			path = ChatTracker;
 			sourceTree = "<group>";
@@ -119,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD7327B253A515F00C7039F /* main.cpp in Sources */,
+				CFD73287253A517C00C7039F /* ChatTracker.cpp in Sources */,
+				CFD73286253A517C00C7039F /* generateTests.cpp in Sources */,
+				CFD73285253A517C00C7039F /* testChatTracker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
